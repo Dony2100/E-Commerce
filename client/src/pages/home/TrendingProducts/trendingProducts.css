@@ -1,0 +1,18 @@
+.trending__outer {
+  overflow: hidden;
+}
+.trendingProducts {
+  position: relative;
+}
+
+.trending__inner {
+  display: flex;
+  gap: 20px;
+}
+.trending__inner > div {
+  min-width: 220px;
+}
+
+.trendingProducts__arrows > svg:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}

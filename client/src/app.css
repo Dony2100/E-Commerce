@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700;800;900&display=swap");
+
+:root {
+  --color-bg: #fefffe;
+  --color-text: #000000;
+  --color-footer: #333;
+  --color-border: #333;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: "Blinker", sans-serif;
+}
+
+body.dark {
+  --color-bg: #333;
+  --color-text: #fff;
+  --color-footer: #fefffe;
+  --color-border: #fff;
+}
+
+body {
+  color: var(--color-text);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+.container {
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 986px) {
+  .container {
+    max-width: 860px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1050px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
+@media (min-width: 1401px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+.app__container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 1rem 0;
+  /* background: rgba(85, 105, 255, 0.08); */
+  background-color: var(--color-bg);
+  z-index: 129737;
+  box-shadow: 2px 2px 50px 0 rgba(0, 0, 0, 0.12);
+}
+.app__container > div {
+  margin: 0 auto;
+}
+/* Footer */
+.app__container__footer {
+  /* position: absolute; */
+  /* left: 0; */
+  /* bottom: 0; */
+  padding: 1rem 0;
+  width: 100%;
+  /* background: red; */
+}
+.app__container__footer > div {
+  margin: 0 auto;
+}
+
+.app__holder {
+  margin: 200px 0;
+}
+
+.section__margin {
+  margin-top: 6rem;
+}
+.section__padding {
+  padding-top: 6rem;
+}
+
+body img {
+  display: block;
+}
