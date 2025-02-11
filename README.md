@@ -21,7 +21,7 @@ Before you dive in, make sure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   https://github.com/AlioM46/E-Commerce.git
+   git clone git@github.com:Dony2100/E-Commerce.git
    ```
 
 
